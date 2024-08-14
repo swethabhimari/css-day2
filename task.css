@@ -1,0 +1,57 @@
+#p1{
+    color:red;
+    background-color: aqua;
+    font-size: 20px;
+    font-family : cursive;
+    font-weight: 800;
+    font-style: italic;
+}
+#p2{
+    color:black;
+    text-decoration: underline;
+    font-size: 20px;
+    text-shadow: 3px 3px 3px rgb(226, 43, 43);
+    text-align: right;
+}
+#p3{
+    color:black;
+    text-decoration:overline;
+    text-shadow:3px 3px 3px green;
+    text-transform: uppercase;
+    font-size: 20px;
+}
+.img1{
+    width:300px;
+    height:300px;
+    object-fit: cover;
+    box-shadow:10px 10px 10px red;
+    border: 5px solid black;
+}
+.img2{
+    width:300px;
+    height:300px;
+    object-fit: scale-down;
+    box-shadow:10px 10px 10px red;
+    border: 5px solid black;
+}
+.img3{
+width:300px;
+height:300px;
+object-fit: fill;
+box-shadow:10px 10px 10px red;
+border: 5px solid black;
+}
+.d{
+    background-color: lightcoral;
+    width: 200px;
+    box-shadow: 5px 5px 5px blue;
+    background:linear-gradient(-50deg, red,blue,yellow);
+}
+body{
+    background-image:url(../Kedarnath\ Temple.jpg);
+    background-repeat: no-repeat;
+    background-size:cover;
+    
+    
+}
+
